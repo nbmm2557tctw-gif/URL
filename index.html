@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>404 Background</title>
+  <link rel="icon" href="png/sun.gif" type="image/png">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000; /* 背景色，防圖片透明 */
+    }
+
+    img.bg {
+      width: 100%;       /* 寬度隨螢幕變化 */
+      height: auto;      /* 高度自動，維持比例 */
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <img src="png/image.png" class="bg" alt="404 Background">
+</body>
+</html>
