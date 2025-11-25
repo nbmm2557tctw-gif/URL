@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitelist version="1">
+  <site url="http://php.potatohan.com/png/21.png">
+    <compat-mode>IE11</compat-mode>
+  </site>
+</sitelist>
